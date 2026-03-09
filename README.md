@@ -11,6 +11,7 @@ type to fit the data.
 4. Store the results in an array
 5. Represent the result in graphical representation as given below.
 ### PROGRAM:
+```
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -56,6 +57,7 @@ plt.savefig('autocorrelation_plot.png')
 print(f"Mean: {mean_val}")
 print(f"Variance: {var_val}")
 print(f"Autocorrelation array (first 5): {acorr_array[:5]}")
+```
 ### OUTPUT:
 <img width="857" height="547" alt="tex3" src="https://github.com/user-attachments/assets/e4fe7ba3-e94a-4604-9e7b-5d952bdee8f5" />
 
